@@ -6,12 +6,15 @@ This folder contains two beginner-level Python tasks designed to practice basic 
 
 ## 📂 Folder Structure
 
-assignment_1/
-│
-├── task_1.py
-├── task_2.py
-└── README.md
-
+    python_lession1/
+    ├─ assignment_1/
+    │  ├─ task_1.py
+    │  └─ task_2.py
+    ├─ area_of_triangle.py
+    ├─ compound_intrest.py
+    ├─ simple_intrest.py
+    ├─ main.py
+    └─ README.md
 ---
 
 # 🧮 Task 1 – Basic Calculator

@@ -1,16 +1,24 @@
-# This is a sample Python script.
+def run_assignment_1_task_1():
+    from assignment_1.task_1 import main as task_1_main
+    task_1_main()
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+def run_assignment_1_task_2():
+    from assignment_1.task_2 import main as task_2_main
+    task_2_main()
 
+def main():
+    print("Python Assignments")
+    print("1. Task 1 - Basic Calculator")
+    print("2. Task 2 - Greeting Program")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    choice = input("Enter the task number to run (1/2): ")
 
+    if choice == '1':
+        run_assignment_1_task_1()
+    elif choice == '2':
+        run_assignment_1_task_2()
+    else:
+        print("Invalid choice. Please select 1 or 2.")
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()
