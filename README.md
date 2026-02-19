@@ -1,6 +1,6 @@
-# 🐍 Python Assignment 1
+# 🐍 Python Assignments
 
-This folder contains two beginner-level Python tasks designed to practice basic input, output, and arithmetic operations.
+This folder contains beginner-level Python tasks designed to practice basic programming concepts including input, output, and arithmetic operations.
 
 ---
 
@@ -10,6 +10,9 @@ This folder contains two beginner-level Python tasks designed to practice basic 
     ├─ assignment_1/
     │  ├─ task_1.py
     │  └─ task_2.py
+    ├─ assignment_2/
+    │  ├─ task_1.py
+    │  └─ task_2.py
     ├─ area_of_triangle.py
     ├─ compound_intrest.py
     ├─ simple_intrest.py
@@ -17,9 +20,11 @@ This folder contains two beginner-level Python tasks designed to practice basic 
     └─ README.md
 ---
 
-# 🧮 Task 1 – Basic Calculator
+# 🧮 Assignment 1 Tasks
 
-## 📌 Description
+## 🧮 Task 1 – Basic Calculator
+
+### 📌 Description
 This program:
 - Takes two numbers as input from the user
 - Performs the following operations:
@@ -30,17 +35,28 @@ This program:
 - Displays the results on the screen
 - Handles division by zero safely
 
+## 🧮 Task 2 – Greeting Program
 
-# 🧮 Task 2 – Greeting Program
-
-## 📌 Description
-
+### 📌 Description
 This program:
+- Takes the user's first name and last name as input
+- Cleans extra spaces using .strip()
+- Formats the name properly
+- Displays a welcome message
 
-Takes the user's first name and last name as input
+# 🧮 Assignment 2 Tasks
 
-Cleans extra spaces using .strip()
+## 🧮 Task 1 – Even or Odd Number Checker
 
-Formats the name properly
+### 📌 Description
+This program:
+- Takes a number as input from the user
+- Checks if the number is even or odd
+- Prints whether the number is even or odd
 
-Displays a welcome message
+## 🧮 Task 2 – Sum of Numbers from 1 to 50
+
+### 📌 Description
+This program:
+- Uses a for loop to calculate the sum of numbers from 1 to 50
+- Prints the total sum
