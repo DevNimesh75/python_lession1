@@ -60,3 +60,22 @@ This program:
 This program:
 - Uses a for loop to calculate the sum of numbers from 1 to 50
 - Prints the total sum
+
+
+# 🧮 Assignment 3 Tasks
+
+## 🧮 Task 1 – Calculate Factorial Using a Function 
+
+### 📌 Description
+This program:
+- Takes a number as input from the user
+- returns the factorial of the number using a function
+
+## 🧮 Task 2 – Using the Math Module for Calculations
+
+### 📌 Description
+This program:
+- Takes a number as input from the user
+- Prints the square root of the number using the math module
+- Prints the logarithm of the number using the math module
+- Prints the sine of the number using the math module
