@@ -13,6 +13,12 @@ This folder contains beginner-level Python tasks designed to practice basic prog
     ├─ assignment_2/
     │  ├─ task_1.py
     │  └─ task_2.py
+    ├─ assignment_3/
+    │  ├─ task_1.py
+    │  └─ task_2.py
+    ├─ assignment_4/
+    │  ├─ task_1.py
+    │  └─ task_2.py
     ├─ area_of_triangle.py
     ├─ compound_intrest.py
     ├─ simple_intrest.py
@@ -79,3 +85,21 @@ This program:
 - Prints the square root of the number using the math module
 - Prints the logarithm of the number using the math module
 - Prints the sine of the number using the math module
+
+# 🧮 Assignment 4 Tasks
+
+## 🧮 Task 1 – Read a File and Handle Errors  
+
+### 📌 Description
+This program:
+- Opens the file and read the content line wise  
+- if the file is not exist then handles the exception 
+
+## 🧮 Task 2 – Write and Append Data to a File
+
+### 📌 Description
+
+- Takes user input and writes it to a file named output.txt.
+- Appends additional data to the same file.
+- Reads and displays the final content of the file.
+
